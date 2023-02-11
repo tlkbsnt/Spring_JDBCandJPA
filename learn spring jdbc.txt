@@ -1,0 +1,12 @@
+
+CREATE TABLE COURSE(
+    id int not null,
+    name varchar(255) not null,
+    author varchar(255) not null,
+    primary key(id)
+);
+
+select * from course
+delete
+insert into course( id, name, author) values(2,'Python','Abhinanadan');
+insert into course( id, name, author) values(1,'Java','Tilak');
